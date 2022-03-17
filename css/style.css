@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+@import url('img-user.css');
+
+.row {
+    margin-top: 50px;
+}
+
+.container h1 {
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.container h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container {
+    width: 85%;
+}
+
+.team {
+    padding-top: 0%;
+    margin: auto;
+}
+
+.card-container {
+    width: 280px;
+    margin: auto;
+}
+
+.card-container:nth-child(2) , .card-container:nth-child(5){
+    width: 280px;
+    margin-top: 200px;
+}
+
+.user {
+    width: 238px;
+    height: 426px;
+}
+
+h2{
+    left: 140px;
+    position: relative;
+    transform: rotate(90deg);
+    top: -265px;
+}
+
+.card-container .user h2 {
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.card-container .user p {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+footer p { 
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    color: #A9A9A9;
+}
+/* ======================================================================*/
+
+@media (max-width: 800px){
+
+    .container h3 {
+        padding: 18px 0 10px 0;
+    }
+
+    .container p {
+        font-size: 14px;
+        padding-bottom: 40px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .card-container {
+        width: 250px;
+        margin: 8px;
+        padding-left: 15%
+    }
+
+    .card-container:nth-child(2) , .card-container:nth-child(5){
+        margin-top: 8px;
+        width: 250px;
+    }
+
+    .card-container:nth-child(even){
+        margin-top: 50px;
+    }
+
+    .user {
+        width: 230px;
+        height: 230px;
+    }
+
+    h2{
+        left: 70px;
+        top: -200px;
+    }
+
+    .card-container .user h2 {
+        font-size: 10px;
+    }
+
+    .card-container .user p {
+        font-size: 14px;
+    }
+
+}
+
+
+@media (max-width: 668px){
+
+    .card-container {
+        width: 210px;
+        margin: 8px;
+        padding-left: 5%
+    }
+
+    .card-container:nth-child(2) , .card-container:nth-child(5){
+        margin-top: 50px;
+        width: 210px;
+    }
+
+    .user {
+        width: 210px;
+        height: 250px;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    .card-container {
+        width: 170px;
+        margin: 8px;
+    }
+
+    .card-container:nth-child(2) , .card-container:nth-child(5){
+        margin-top: 8px;
+        width: 170px;
+    }
+
+    .user {
+        width: 138px;
+        height: 260px;
+    }
+
+}
+
+@media (max-width: 440px){
+
+    .card-container {
+        width: 138px;
+    }
+
+    .card-container:nth-child(even){
+        margin-top: 50px;
+    }
+
+    .card-container:nth-child(2) , .card-container:nth-child(5){
+        width: 138px;
+    }
+
+}
